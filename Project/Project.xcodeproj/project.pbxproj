@@ -14,6 +14,7 @@
 		E3AB1BB81F1445CF00AAFC6E /* Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3AB1BB61F1445CF00AAFC6E /* Project.xcdatamodeld */; };
 		E3AB1BBA1F1445CF00AAFC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AB1BB91F1445CF00AAFC6E /* Assets.xcassets */; };
 		E3AB1BBD1F1445CF00AAFC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AB1BBB1F1445CF00AAFC6E /* LaunchScreen.storyboard */; };
+		E3AB1BC91F1447BE00AAFC6E /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AB1BC81F1447BE00AAFC6E /* Colors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		E3AB1BB91F1445CF00AAFC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AB1BBC1F1445CF00AAFC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AB1BBE1F1445CF00AAFC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AB1BC71F1447BE00AAFC6E /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = ../../implementacion1/Colors.h; sourceTree = "<group>"; };
+		E3AB1BC81F1447BE00AAFC6E /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors.m; path = ../../implementacion1/Colors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		E3AB1BA91F1445CF00AAFC6E /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				E3AB1BC71F1447BE00AAFC6E /* Colors.h */,
+				E3AB1BC81F1447BE00AAFC6E /* Colors.m */,
 				E3AB1BAD1F1445CF00AAFC6E /* AppDelegate.h */,
 				E3AB1BAE1F1445CF00AAFC6E /* AppDelegate.m */,
 				E3AB1BB01F1445CF00AAFC6E /* ViewController.h */,
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AB1BC91F1447BE00AAFC6E /* Colors.m in Sources */,
 				E3AB1BB21F1445CF00AAFC6E /* ViewController.m in Sources */,
 				E3AB1BAF1F1445CF00AAFC6E /* AppDelegate.m in Sources */,
 				E3AB1BAC1F1445CF00AAFC6E /* main.m in Sources */,
